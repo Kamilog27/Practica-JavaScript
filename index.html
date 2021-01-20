@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferreteria</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/3624735d1e.js"></script>
+</head>
+<body>
+    
+    <h1>Inventario</h1>
+    <div class="contenedor">
+    <table class="inventario">
+        <tr class="fila">
+            <td class="titulo">Código</td>
+            <td class="titulo">Artículo</td>
+            <td class="titulo">V/U</td>
+            <td class="titulo">Cantidad</td>
+            <td class="titulo">Acción</td>
+        </tr>
+        <tr class="fila">
+            <td class="columna">1</td>
+            <td class="columna">Destornillador</td>
+            <td class="columna">7000</td>
+            <td class="columna">54</td>
+            <td class="columna"><button class="agregar">Agregar</button></td>
+        </tr>
+        <tr class="fila">
+            <td class="columna">2</td>
+            <td class="columna">Martillo</td>
+            <td class="columna">15000</td>
+            <td class="columna">132</td>
+            <td class="columna"><button class="agregar">Agregar</button></td>
+        </tr>
+        <tr class="fila">
+            <td class="columna">3</td>
+            <td class="columna">Estaño</td>
+            <td class="columna">500</td>
+            <td class="columna">62</td>
+            <td class="columna"><button class="agregar">Agregar</button></td>
+        </tr>
+        <tr class="fila">
+            <td class="columna">4</td>
+            <td class="columna">Led</td>
+            <td class="columna">100</td>
+            <td class="columna">110</td>
+            <td class="columna"><button class="agregar">Agregar</button></td>
+        </tr>
+        <tr class="fila">
+            <td class="columna">5</td>
+            <td class="columna">Resistencia</td>
+            <td class="columna">50</td>
+            <td class="columna">140</td>
+            <td class="columna"><button class="agregar">Agregar</button></td>
+        </tr>
+    </table>
+    <h1>Factura</h1>
+    <table class="factura" id="factura">
+        <tr>
+            <td class="titulo">Código</td>
+            <td class="titulo">Artículo</td>
+            <td class="titulo">V/U</td>
+            <td class="titulo">Cantidad</td>
+            <td class="titulo">Acción</td>     
+        </tr>
+        
+    </table>
+    <button class="producto" id="producto">Agregar productos</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

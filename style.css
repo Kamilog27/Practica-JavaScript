@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.contenedor{
+    width:90%;
+    max-width: 1000px;
+    margin:20px auto;
+       
+}
+
+.inventario .fila{
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    border:1px solid #000;
+}
+.titulo{
+    font-weight: bold;
+}
+td{
+    width: 160px;
+    padding: 5px;
+    margin:5px;
+    font-size: 20px;
+    
+}
+.agregar{
+    font-size: 20px;
+    background: rgb(211, 214, 0);
+    color: #fff;
+    padding: 5px;
+    
+}
+.agregar:hover{
+    cursor: pointer;
+    background: rgb(149, 151, 2);
+}
+.factura tr{
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    border:1px solid #000;
+}
+.eliminar{
+    font-size: 20px;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    padding: 5px;
+    
+}
+.eliminar:hover{
+    cursor: pointer;
+    background: rgb(156, 5, 5);
+}
+.producto{
+    background: rgb(9, 78, 228);
+    color:#fff;
+    padding: 10px;
+    font-size: 16px;
+}
+.producto:hover{
+    background: rgb(6, 48, 139);
+    cursor: pointer;    
+}
+.fa-minus{
+    margin-right: 25px;
+    cursor: pointer;
+}
+.fa-plus{
+    margin-left: 25px;
+    cursor: pointer;
+}
